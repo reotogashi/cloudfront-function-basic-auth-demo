@@ -1,0 +1,22 @@
+{
+  "extends": "standard-with-typescript",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "no-new": "off",
+    "no-useless-constructor": "off",
+    "@typescript-eslint/no-useless-constructor": ["off"],
+    "@typescript-eslint/no-unused-vars": ["off"],
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    "@typescript-eslint/restrict-template-expressions": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/no-extraneous-class": "off",
+    "@typescript-eslint/no-unused-expressions": "off",
+    "no-template-curly-in-string": "off",    
+    "standard/no-callback-literal": "off"
+  },
+  "ignorePatterns": [
+    "cdk.out/**"
+  ]
+}
